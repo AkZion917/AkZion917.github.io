@@ -1,0 +1,98 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #1516136e;/*brighter background colour*/
+  }
+  
+  /* Header Styles */
+  
+  .header {
+    background-color: #2b361e;/Bright green header*/
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  .header h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    color:#1a2431d0;/*Bright yellow heading*/
+  }
+  
+  /* Navigation Styles */
+  
+  .nav {
+    background-color:#38738f;/*Bright blue navigation*/
+    color: #fff;
+    padding: 0.5em;
+    text-align: center;
+  }
+  
+  .nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Section Styles */
+  
+  .section {
+    padding: 2em;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }…
+
+  /* Project Styles */
+
+.project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .project img {
+    width: 30%;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    color: #9C27B0; /* Bright purple project heading */
+  }
+  
+  /* Footer Styles */
+  
+  .footer {
+    background-color: #8BC34A; /* Bright green footer */
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+  }
+  
+  .footer p {
+    margin-bottom: 0.5em;
+  }
+  ```
